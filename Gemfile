@@ -23,6 +23,8 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Use Bootstrap
+gem 'bootstrap-sass', '3.3.6'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -41,6 +43,7 @@ group :development, :test do
   gem 'minitest-reporters', '1.1.14'
   gem 'guard', '2.14.1'
   gem 'guard-minitest', '2.4.6'
+  gem 'rails-controller-testing', '1.0.1'
 end
 
 group :development do
